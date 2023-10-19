@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Yessica María Villavizar Hernández #2019-1056</Text>
+      <Text>Edward Brito Diaz 2019-0823</Text>
       <StatusBar style="auto" />
     </View>
   );
