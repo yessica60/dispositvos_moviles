@@ -1,4 +1,4 @@
-mport React, { useState } from 'react';
+import React, { useState } from 'react';
 import { TextInput } from 'react-native';
 
 type Props = {
