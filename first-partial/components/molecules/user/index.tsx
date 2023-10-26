@@ -1,7 +1,8 @@
 import React from "react";
 import { View } from "react-native";
-import TextAtom from "../atoms/Text";
-import ImageAtom from "../atoms/ImageAtom";
+import ImageAtom from "../../atoms/image";
+import TextAtom from "../../atoms/text";
+
 
 type Props = {
   src: string;

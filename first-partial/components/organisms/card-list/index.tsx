@@ -1,7 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
-import { Data } from '../../App';
-import Card from '../molecules/Card';
+import { Data } from '../../../App';
+import Card from '../../molecules/card';
 
 type CardListProps = {
   data: Data;

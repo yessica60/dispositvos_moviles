@@ -1,6 +1,6 @@
 import React from "react";
 import { View } from "react-native";
-import TextAtom from "../atoms/Text";
+import TextAtom from "../../atoms/text";
 
 type CardProps = {
   number: string | number;

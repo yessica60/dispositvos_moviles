@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { View } from "react-native";
-import TextInputAtom from "../atoms/TextInput";
-import Button from "../atoms/Button";
+import Button from "../../atoms/buttons";
+import TextInputAtom from "../../atoms/text-input";
 
 type Props = {
   onSearch: Function;

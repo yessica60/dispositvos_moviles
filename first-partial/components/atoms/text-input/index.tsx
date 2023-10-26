@@ -6,7 +6,7 @@ type Props = {
   onChangeText: (text: string) => void;
 }
 
-const TextInputAtom = ({ placeholder, onChangeText }: Props) => {
+const TextInputAtom= ({ placeholder, onChangeText }: Props) => {
   const [text, setText] = useState("");
 
   return (
