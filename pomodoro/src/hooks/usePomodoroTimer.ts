@@ -41,7 +41,7 @@ export function usePomodoroTimer() {
   
   async function playSound() {
     const { sound } = await Audio.Sound.createAsync(
-      require("../../../assets/click.mp3")
+      require("../../assets/click.mp3")
     );
     await sound.playAsync();
   }
