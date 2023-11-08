@@ -1,4 +1,4 @@
-import TimerApp from "./src/componentes/organisms/timer-app";
+import TimerApp from "./src/componentes/organisms";
 
 export default function App() {
 return <TimerApp  />;
